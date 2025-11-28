@@ -1,0 +1,132 @@
+<!-- Auhtor: Ketan Jaglan -->
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100SMILES Dental Care - Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="Images/AdobeStock_244031852-cmpr.jpeg" align="left" width="200" height="100">
+    <img src="Images/AdobeStock_473854744-cmpr.jpeg" align="right" width="200" height="100">
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="team.html">Our Team</a>
+      <a href="articles.html">Articles</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+<img src="Images/AdobeStock_537857878-cmpr.jpeg" width="600" height="350">
+      <p><strong>Phone:</strong> 07 5000 5599</p>
+      <p><strong>Fax:</strong> 07 4567 9999</p>
+      <p><strong>Email:</strong> <a href="mailto:admin@100smilesdentalcare.com.au">admin@100smilesdentalcare.com.au</a></p>
+      <p><strong>Address:</strong> 33 Fantail Street, Razole, Queensland</p>
+
+  <h2>Trading Hours</h2>
+  <ul>
+    <li>Monday – Friday: 8:30am – 6:30pm</li>
+    <li>Saturday – Sunday: 8:30am – 1:00pm</li>
+  </ul>
+
+  <section>
+      <h2><u>FREE Dental Check-up – Saturday 5th July</u></h2>
+      <p>
+        100SMILES Dental Care is offering a <strong>FREE dental check-up</strong> on
+        <strong>Saturday, 5th July from 9:00am</strong>.
+        This is your chance to receive a professional dental examination at no cost.
+      </p>
+
+      <h3>What to Expect</h3>
+<img src="Images/AdobeStock_297288948-cmpr.jpeg" align="right" width="320" height="220">
+      <ul>
+        <li>Free dental examination of teeth and gums</li>
+        <li>Professional cleaning to remove plaque and tartar</li>
+        <li>Personalised dental care advice</li>
+        <li>Full treatment plan if any issues are found</li>
+      </ul>
+
+      <h3>How to Book Your Free Check-up</h3>
+      <ul>
+        <li><strong>Call Us:</strong> 07 5000 5599</li>
+        <li><strong>Email Us:</strong> admin@100smilesdentalcare.com.au</li>
+        <li><strong>Visit Us:</strong> 33 Fantail Street, Razole, Queensland</li>
+      </ul>
+
+      <p><strong>Limited slots available – book early to secure your place!</strong></p>
+    </section>
+
+
+
+<section>
+<section id="booking">
+  <h2>Online Booking Form</h2>
+
+  <form id="bookingForm" novalidate>
+
+    <label for="name">Full Name *</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number *</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="service">Select Service *</label>
+    <select id="service" name="service" required>
+      <option value="">-- Select a Service --</option>
+      <option>General Check-up</option>
+      <option>Teeth Cleaning</option>
+      <option>Orthodontics</option>
+      <option>Dental Implants</option>
+      <option>Emergency Care</option>
+    </select>
+
+    <label>Patient Type *</label>
+    <div>
+      <label><input type="radio" name="patientType" value="Adult" required> Adult</label>
+      <label><input type="radio" name="patientType" value="Child"> Child</label>
+      <label><input type="radio" name="patientType" value="Senior"> Senior</label>
+    </div>
+
+    <label for="date">Preferred Date *</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Preferred Time</label>
+    <input type="time" id="time" name="time">
+
+    <label for="message">Additional Notes</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <label>
+      <input type="checkbox" id="consent" required>
+      I agree to be contacted regarding this booking *
+    </label>
+
+    <button type="submit">Submit Booking</button>
+
+    <p id="formMessage"></p>
+  </form>
+</section>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 100SMILES Dental Care | 33 Fantail St, Razole QLD | Phone: 07 5000 5599</p>
+  </footer>
+<script src="form-validation.js"></script>
+</body>
+
+</html>
